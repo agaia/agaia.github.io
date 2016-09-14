@@ -1,0 +1,100 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#part1 {
+	position: absolute;
+	background-color: #DA6555;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#part2 {
+	position: absolute;
+	background-color: #555454;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.alone,
+.alone2 {
+	color: #555454;
+	height: 400px;
+	width: 550px;
+	background: transparent;
+	margin-left: calc(45% - 200px);
+	margin-right: calc(45% - 200px);
+	margin-top: auto;
+	font-family: 'mapolice2';
+	text-align: center;
+	font-size: 180%;
+	z-index: 2;
+}
+
+.alone {
+	margin-bottom: -10%;
+}
+
+.titre {
+	color: #DA6555;
+	height: 400px;
+	width: 550px;
+	background: transparent;
+	margin-left: calc(45% - 200px);
+	margin-right: calc(45% - 200px);
+	margin-top: 8%;
+	font-family: 'mapolice2';
+	text-align: center;
+	font-size: 180%;
+	z-index: 2;
+}
+
+.alone h1 {
+	text-align: center;
+	font-size: 300%;
+	z-index: 1;
+/* 	text-decoration: underline overline; */
+}
+
+.alone h1 span:hover {
+	color: #D5D5D5;
+}
+
+.alone h3,
+.alone p {
+	z-index: 2;
+}
+
+.alone h1:hover {
+	text-decoration-color: #D5D5D5;
+}
+
+.alone2 h3 span:hover {
+	color: #D5D5D5;
+}
+
+.image,
+.image2 {
+	z-index: 1;
+	margin-left: calc(10% - 30px);
+	margin-right: calc(10% - 30px);
+}
+
+.titre ul {
+	text-align: left;
+}
+
+.titre ul li:hover{
+	color: #D5D5D5;
+}
+
+@font-face {
+	font-family: 'mapolice2';
+	src:url('pol11.ttf');
+}
