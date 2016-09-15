@@ -98,3 +98,14 @@ html, body {
 	font-family: 'mapolice2';
 	src:url('pol11.ttf');
 }
+
+.alone2 p a:visited,
+.alone2 p a:link,
+.alone2 p a:active {
+	text-decoration: underline;
+	color: #555454;
+}
+
+.alone2 p a:hover {
+	color: black;
+}
