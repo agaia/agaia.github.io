@@ -109,3 +109,9 @@ html, body {
 .alone2 p a:hover {
 	color: #D5D5D5;
 }
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+	body {
+		font-size: 60%;
+	}
+}
