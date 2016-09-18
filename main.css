@@ -110,7 +110,7 @@ html, body {
 	color: #D5D5D5;
 }
 
-@media handheld and (min-width: 400px) and (max-width: 500px) {
+@media handheld {
 	body {
 		font-size: 20%;
 	}
