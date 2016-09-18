@@ -114,4 +114,21 @@ html, body {
  body {
  font-size:80%;
  }
+ #part1 {
+	position: absolute;
+	background-color: #DA6555;
+	top: 0;
+	left: 0;
+	width: 200%;
+	height: 200%;
+}
+
+#part2 {
+	position: absolute;
+	background-color: #555454;
+	top: 200%;
+	left: 0;
+	width: 200%;
+	height: 200%;
+}
 }
