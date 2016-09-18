@@ -110,8 +110,8 @@ html, body {
 	color: #D5D5D5;
 }
 
-@media handheld {
-	body {
-		font-size: 20%;
-	}
+@media only screen and (max-device-width:980px) {
+ body {
+ font-size:120%;
+ }
 }
