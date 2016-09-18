@@ -112,6 +112,6 @@ html, body {
 
 @media handheld and (min-width: 400px) and (max-width: 500px) {
 	body {
-		font-size: 60%;
+		font-size: 20%;
 	}
 }
