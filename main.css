@@ -112,7 +112,7 @@ html, body {
 
 @media only screen and (max-device-width:980px) {
  body {
- font-size:80%;
+ font-size:100%;
  }
  #part1 {
 	position: absolute;
