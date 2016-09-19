@@ -238,4 +238,29 @@ html, body {
 		width: 200%;
 		height: 200%;
 	}
+		#part3 {
+		position: absolute;
+		background-color: #DA6555;
+		top: 0;
+		left: 0;
+		width: 200%;
+		height: 200%;
+	}
+
+	#part4 {
+		position: absolute;
+		background-color: #DA6555;
+		top: 0;
+		left: 0;
+		width: 200%;
+		height: 200%;
+	}
+	.menu p span a:visited,
+	.menu p span a:link,
+	.menu p span a:active,
+	.menu p span a:focus {
+		text-decoration: none;
+		text-shadow: 5px 5px 1px white;
+		color: transparent;
+	}
 }
