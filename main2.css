@@ -16,6 +16,8 @@ body {
 
 #maindiv p span:hover {
 	color: #F2F2F2;
+	font-size: 110%;
+	font-weight: bold;
 }
 
 @font-face {
