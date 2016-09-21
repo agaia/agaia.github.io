@@ -177,4 +177,8 @@ html {
 	#bord {
 		font-size: 100%;
 	}
+	.element:nth-child(1) {
+		flex: 1;
+		margin-left: 5%;
+	}
 }
