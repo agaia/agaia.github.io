@@ -190,6 +190,7 @@ html {
 		padding-top: 20%;
 		padding-bottom: 10%;
 		font-size: 100%;
+		flex-direction: column;
 	}
 	#serv {
 		padding-top: 50%;
