@@ -169,3 +169,12 @@ html {
 	from {background: white;}
 	to {background-color: #BDBDBD;}
 }
+
+@media only screen and (max-device-width:980px) {
+ body {
+ font-size:100%;
+ }
+	#bord {
+		font-size: 100%;
+	}
+}
