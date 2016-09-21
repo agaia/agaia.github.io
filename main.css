@@ -183,8 +183,8 @@ html {
 		margin-left: 5%;
 	}
 	#index {
-		padding-top: 60%;
-		padding-bottom: 60%;
+		padding-top: 55%;
+		padding-bottom: 55%;
 	}
 	#cv {
 		padding-top: 20%;
@@ -193,8 +193,8 @@ html {
 		flex-direction: column;
 	}
 	#serv {
-		padding-top: 50%;
-		padding-bottom: 30%;
+		padding-top: 45%;
+		padding-bottom: 25%;
 	}
 	#contact {
 		padding-top: 55%;
