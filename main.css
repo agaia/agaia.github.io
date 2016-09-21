@@ -183,7 +183,7 @@ html {
 	}
 	#index {
 		padding-top: 30%;
-		padding-bottom: 30%;
+		padding-bottom: 50%;
 	}
 	#cv {
 		padding-top: 20%;
@@ -191,7 +191,7 @@ html {
 		font-size: 100%;
 	}
 	#contact {
-		padding-top: 40%;
-		padding-bottom: 20%;
+		padding-top: 60%;
+		padding-bottom: 60%;
 	}
 }
