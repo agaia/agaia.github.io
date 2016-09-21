@@ -182,13 +182,17 @@ html {
 		margin-left: 5%;
 	}
 	#index {
-		padding-top: 30%;
-		padding-bottom: 50%;
+		padding-top: 50%;
+		padding-bottom: 70%;
 	}
 	#cv {
 		padding-top: 20%;
 		padding-bottom: 10%;
 		font-size: 100%;
+	}
+	#serv {
+		padding-top: 30%;
+		padding-bottom: 30%;
 	}
 	#contact {
 		padding-top: 60%;
