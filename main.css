@@ -182,8 +182,8 @@ html {
 		margin-left: 5%;
 	}
 	#index {
-		padding-top: 50%;
-		padding-bottom: 70%;
+		padding-top: 100%;
+		padding-bottom: 100%;
 	}
 	#cv {
 		padding-top: 20%;
@@ -191,7 +191,7 @@ html {
 		font-size: 100%;
 	}
 	#serv {
-		padding-top: 30%;
+		padding-top: 50%;
 		padding-bottom: 30%;
 	}
 	#contact {
