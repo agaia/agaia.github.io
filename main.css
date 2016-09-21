@@ -181,4 +181,13 @@ html {
 		flex: 1;
 		margin-left: 5%;
 	}
+	#index {
+		padding-top: 30%;
+		padding-bottom: 30%;
+	}
+	#cv {
+		padding-top: 10%;
+		padding-bottom: 10%;
+		font-size: 100%;
+	}
 }
