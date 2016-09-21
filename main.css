@@ -176,7 +176,7 @@ html {
  }
 	#bord {
 		font-size: 100%;
-		margin-top: -1%;
+		margin-top: -2%;
 	}
 	.element:nth-child(1) {
 		flex: 1;
