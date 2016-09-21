@@ -80,7 +80,7 @@ html {
 	justify-content: space-around;
 }
 
-.element:hover {
+.element span:hover {
 	text-decoration: overline;
 }
 
