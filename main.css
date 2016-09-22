@@ -240,7 +240,8 @@ body {
 	}
 	
 	#bar {
-		margin-top: 80%;
+		font-size: 100%;
+		margin-top: 100%;
 	}
 	
 	.element:nth-child(1) {
