@@ -241,7 +241,8 @@ body {
 	
 	#bar {
 		font-size: 100%;
-		margin-top: 140%;
+		margin-top: 145%;
+		padding-bottom: 5%;
 	}
 	
 	#index {
