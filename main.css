@@ -1,0 +1,239 @@
+@font-face {
+	font-family: 'mapolice2';
+	src:url('pol11.ttf');
+}
+
+@font-face {
+	font-family: 'mapolice';
+	src:url('pol3.otf');
+}
+
+@font-face {
+	font-family: 'mapolice3';
+	src:url('pol2.ttf');
+}
+
+html {
+	font-family: 'mapolice2';
+}
+
+::-moz-selection {
+	color: grey;
+	background: white;
+}
+
+::selection {
+	color: green;
+	background: pink;
+}
+
+#ref {
+	background-color: white;
+	opacity: 0.98;
+	z-index: 4;
+}
+
+body {
+	height: 1000%;
+	background-image: url("tumblr.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: inherit;
+	z-index:5;
+}
+
+#bord {
+	border-bottom: 1px dotted black;
+	padding-top: 1%;
+	margin-top: -.6%;
+	padding-bottom: 1%;
+	font-size: 180%;
+	display: flex;
+	background: white;
+	flex-wrap: no-wrap;
+	justify-content: space-around;
+	margin-bottom: 0%;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+}
+
+#bar {
+	border-top: 1px dotted black;
+	margin-top: 51%;
+	padding-top: 1%;
+	padding-bottom: 10%;
+	font-size: 180%;
+	display: flex;
+	background: white;
+	flex-wrap: no-wrap;
+	justify-content: space-around;
+	margin-bottom: 0%;
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+}
+
+#index {
+	z-index:2;
+	font-size: 120%;
+	padding-top: 25%;
+	padding-bottom: 25%;
+	display: flex;
+	flex-wrap: no-wrap;
+	justify-content: space-around;
+}
+
+#cv {
+	z-index:2;
+	font-size: 100%;
+	padding-top: 10%;
+	padding-bottom: 15%;
+	display: flex;
+	flex-wrap: no-wrap;
+	justify-content: space-around;
+}
+
+#cv .element2 {
+	font-size: 110%;
+}
+
+#cv .element2 ul li a:visited,
+#cv .element2 ul li a:focus,
+#cv .element2 ul li a:link {
+	background: transparent;
+	color: black;
+}
+
+#serv {
+	z-index:2;
+	font-size: 120%;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	display: flex;
+	flex-wrap: no-wrap;
+	justify-content: space-around;
+}
+
+#contact {
+	z-index:2;
+	font-size: 120%;
+	padding-top: 15%;
+	padding-bottom: 25%;
+	display: flex;
+	flex-wrap: no-wrap;
+	justify-content: space-around;
+}
+
+.element span:hover {
+	text-decoration: overline;
+}
+
+.element strong {
+	font-family: 'mapolice3';
+}
+
+/* .element:nth-child(1) {
+	flex: 1;
+}
+
+.element:nth-child(2) {
+	flex: 1;
+}
+
+.element:nth-child(3) {
+	flex: 1;
+}
+
+.element:nth-child(4) {
+	flex: 1;
+}
+
+.element:nth-child(5) {
+	flex: 0.1;
+} */
+
+.element2 {
+	text-align: left;
+	margin-left: 2%;
+}
+
+.element2:nth-child(1) {
+	flex: 1;
+}
+
+.element2:nth-child(2) {
+	flex: 1;
+}
+
+.element2:nth-child(3) {
+	flex: 1;
+}
+
+.element3 a:visited,
+.element3 a:link {
+	color: black;
+	text-decoration: none;
+}
+
+.element3 a:focus {
+	opacity: .5;
+	text-decoration-color: rgba(255, 255, 255, .5);
+}
+
+.element3 span:hover {
+	text-decoration: overline;
+}
+
+.element3 strong {
+	font-family: 'mapolice3';
+}
+
+.element3 a:visited,
+.element3 a:link {
+	color: black;
+	text-decoration: none;
+}
+
+.dlbt {
+	border: 1px solid black;
+	width: 25%;
+	height: auto;
+	text-align: center;
+}
+
+.dlbt a:visited,
+.dlbt a:focus,
+.dlbt a:link {
+	text-decoration: none;
+	color: black;
+}
+
+.dlbt:hover {
+	animation: btn 1s infinite alternate;
+}
+
+@keyframes fondu {
+    0% {color: white;}
+    16,5% {color: red;}
+	33% {color: white;}
+	49,5% {color: red;}
+	66% {color: white;}
+	82,5% {color: red;}
+	100% {color: white;}
+}
+
+@keyframes btn {
+	from {background: white;}
+	to {background-color: #BDBDBD;}
+}
+
+@media only screen and (max-device-width:980px) {
+ body {
+ font-size:100%;
+ }
+	#bord {
+		font-size: 100%;
+	}
+}
