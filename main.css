@@ -230,10 +230,43 @@ body {
 }
 
 @media only screen and (max-device-width:980px) {
- body {
- font-size:100%;
- }
+	body {
+	font-size:100%;
+	}
+	
 	#bord {
 		font-size: 100%;
+		margin-top: -2%;
+	}
+	
+	#bar {
+		margin-top: 80%;
+	}
+	
+	.element:nth-child(1) {
+		flex: 1;
+		margin-left: 5%;
+	}
+	
+	#index {
+		padding-top: 55%;
+		padding-bottom: 55%;
+	}
+	
+	#cv {
+		padding-top: 20%;
+		padding-bottom: 10%;
+		font-size: 100%;
+		flex-direction: column;
+	}
+
+	#serv {
+		padding-top: 45%;
+		padding-bottom: 25%;
+	}
+
+	#contact {
+		padding-top: 55%;
+		padding-bottom: 55%;
 	}
 }
