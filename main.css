@@ -18,13 +18,13 @@ html {
 }
 
 ::-moz-selection {
-	color: grey;
+	color: #00FF00;
 	background: white;
 }
 
 ::selection {
-	color: green;
-	background: pink;
+	color: #00FF00;
+	background: white;
 }
 
 #ref {
@@ -241,7 +241,7 @@ body {
 	
 	#bar {
 		font-size: 100%;
-		margin-top: 140%;
+		margin-top: 145%;
 		padding-bottom: 30%;
 		margin-bottom: -10%;
 	}
