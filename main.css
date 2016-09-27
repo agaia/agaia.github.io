@@ -119,7 +119,7 @@ body {
 	z-index:2;
 	font-size: 120%;
 	padding-top: 15%;
-	padding-bottom: 25%;
+	padding-bottom: 30%;
 	display: flex;
 	flex-wrap: no-wrap;
 	justify-content: space-around;
@@ -236,7 +236,7 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	padding-bottom: 25%;
-	margin-top: 5%;
+	margin-top: 15%;
 	display: flex;
 	flex-wrap: no-wrap;
 	justify-content: space-around;
