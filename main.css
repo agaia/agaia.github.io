@@ -286,4 +286,6 @@ body {
 	
 	#lang {
 		font-size: 100%;
+		writing-mode: vertical-rl;
+	}
 }
