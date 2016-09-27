@@ -232,6 +232,24 @@ body {
 	color: black;
 }
 
+#book {
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 25%;
+	display: flex;
+	flex-wrap: no-wrap;
+	justify-content: space-around;
+}
+
+#book img {
+	opacity: 0.5;
+	margin: 2% 2% 2% 2%;
+}
+
+#book img:hover {
+	opacity: 1;
+}
+
 @keyframes fondu {
     0% {color: white;}
     16,5% {color: red;}
