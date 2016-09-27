@@ -217,6 +217,8 @@ body {
 	margin: left;
 	position: fixed;
 	z-index: 100;
+	writing-mode: vertical-rl;
+	text-orientation: sideways;
 }
 
 #lang span:hover {
