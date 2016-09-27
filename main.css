@@ -213,6 +213,23 @@ body {
 	animation: btn 1s infinite alternate;
 }
 
+#lang {
+	margin: left;
+	position: fixed;
+	z-index: 100;
+}
+
+#lang span:hover {
+	text-decoration: overline;
+}
+
+#lang a:visited,
+#lang a:link,
+#lang a:focus {
+	text-decoration: none;
+	color: black;
+}
+
 @keyframes fondu {
     0% {color: white;}
     16,5% {color: red;}
