@@ -248,6 +248,7 @@ body {
 
 #book img:hover {
 	opacity: 1;
+	z-index: 150;
 }
 
 @keyframes fondu {
