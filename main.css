@@ -308,4 +308,8 @@ body {
 		font-size: 70%;
 		margin-top: 6.5%;
 	}
+	
+	#book {
+		padding-top: 20%;		
+	}
 }
