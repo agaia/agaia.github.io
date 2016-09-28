@@ -235,6 +235,7 @@ body {
 #book {
 	margin-left: 10%;
 	margin-right: 10%;
+	padding-bottom: 15%;
 	display: flex;
 	flex-wrap: no-wrap;
 	justify-content: space-around;
