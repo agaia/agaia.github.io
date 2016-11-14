@@ -43,7 +43,7 @@ body {
 }
 
 #bord {
-	background-color: #F8ECE0;
+	color: #F8ECE0;
 	border-bottom: 1px dotted black;
 	padding-top: 1%;
 	margin-top: -.6%;
@@ -60,7 +60,7 @@ body {
 }
 
 #bar {
-	background-color: #F8ECE0;
+	color: #F8ECE0;
 	border-top: 1px dotted black;
 	margin-top: 48%;
 	padding-top: 1%;
