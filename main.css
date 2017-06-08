@@ -69,10 +69,10 @@ p {font-size: 16px;}
   padding-right: 21%;
 }
 
-.navbar-default {
+/*.navbar-default {
   position: fixed !important;
   z-index: 1;
-}
+}*/
 
 .navbar-nav li a:hover {
  color: #01A9DB !important;
