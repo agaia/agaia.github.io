@@ -35,7 +35,9 @@ p{
   justify-content: space-around;
 }
 
-p {font-size: 16px;}
+p {
+  font-size: 16px;
+}
 
 .bg-1 {
   background-color: #01A9DB;
@@ -63,9 +65,9 @@ p {font-size: 16px;}
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
-  width: 100%;
   font-size: 12px;
   letter-spacing: 5px;
+  width: 100%;
   padding-left: 18%;
   padding-right: 21%;
 }
@@ -79,10 +81,24 @@ p {font-size: 16px;}
  color: #01A9DB !important;
 }
 
-@media only screen and (max-width:800px) {
- .navbar {
-    font-size:1px;
-     letter-spacing:3px;
-     color:red;
- }
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #f8f8f8; /* Grey background */
 }
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.c {width: 75%; background-color:#58ACFA} /* Green */
+.cpp {width: 70%; background-color: #2E9AFE;} /* Blue */
+.python {width: 75%; background-color: #0080FF;} /* Red */
+.html {width: 100%; background-color: #0174DF;} /* Dark Grey */
+.css {width: 60%; background-color: #045FB4;} /* Dark Grey */
