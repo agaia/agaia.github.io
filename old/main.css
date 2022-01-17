@@ -1,0 +1,104 @@
+body,
+body h3,
+p{
+    font: 20px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+#content-all {
+  padding-top: 5%;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+ }
+
+#gmap_canvas img {
+  max-width:none!important;
+  background:none!important;
+  padding-left: 100px;
+}
+
+.general_map,
+#gmap_canvas {
+  overflow:hidden;
+  height:60%;
+  width:40%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  justify-content: space-around;
+}
+
+p {
+  font-size: 16px;
+}
+
+.bg-1 {
+  background-color: #01A9DB;
+
+}
+
+.bg-2 {
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
+}
+
+.bg-3 {
+  background-color: #ffffff; /* White */
+  color: #474e5d;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  width: 100%;
+  padding-left: 18%;
+  padding-right: 21%;
+}
+
+.navbar-default {
+  position: fixed !important;
+  z-index: 1;
+}
+
+.navbar-nav li a:hover {
+ color: #01A9DB !important;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #f8f8f8; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.c {width: 75%; background-color:#58ACFA} /* Green */
+.cpp {width: 70%; background-color: #2E9AFE;} /* Blue */
+.python {width: 75%; background-color: #0080FF;} /* Red */
+.html {width: 100%; background-color: #0174DF;} /* Dark Grey */
+.css {width: 60%; background-color: #045FB4;} /* Dark Grey */
